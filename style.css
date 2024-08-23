@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar-section a{
+    font-weight: bold;
+    color:rgb(56, 56, 56);
+}
+.navbar-section a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.home-section .btn{
+    background-color: blue;
+}
+
+.skills-section .row{
+    display: flex;
+    gap:20px;
+}
+.skills-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.skills-section .row div{
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.work-section .container{
+    gap: 20px;
+  }
+.work-section .container .row{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.work-section .container .row div{
+    background-color: rgba(170, 167, 167, 0.315);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 10px;
+}
+.work-section .container .row a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 2px 20px ;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    box-shadow: 2px 2px 5px blue;
+}
+.contact-section .row .col i{
+    color:rgb(255, 230, 0);
+
+}
+.contact-section .row .col a{
+    text-decoration: none;
+    color: white;
+}
+
+.skills-section .container .row div:hover{
+    transform: scale(1.1);
+}
+.work-section .container .row div:hover{
+    transform: scale(1.1);
+}
